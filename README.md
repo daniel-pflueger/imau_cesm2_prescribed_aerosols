@@ -14,7 +14,8 @@ Note: to run these scripts, you will need stratospheric aerosol data from CESM2-
 * `norm_const_fit.py`: fit functions for field amplitudes
 
 ## Output
-* `./exp_fields_2022_02_09`, `./fit_params_2022_02_09`: 
+* `./exp_fields_2022_02_09`, `./fit_params_2022_02_09`: netcdfs of averaged fields as well as fit parameters for AOD->amplitude conversion
+
 
 ## Feedforward-feedback controller:
 * `main.py`, `driver.py`, `commonroutines.py`: utilities for running the controller and coupling it to CESM2, written by Ben Kravitz with minor modifications from our side
